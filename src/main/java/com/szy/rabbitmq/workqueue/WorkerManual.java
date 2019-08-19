@@ -16,7 +16,7 @@ import com.rabbitmq.client.DeliverCallback;
  *  2. 申明队列持久化，指定消息持久化
  *
  *  去除消息预分配
- *  1. 指定prefetchCount
+ *  1. 指定prefetchCount 指定消息分配数量
  * @author sunzhengyu
  * @create 2019/8/16
  * @since 1.0.0
